@@ -1,0 +1,18 @@
+package JuegoEscalera;
+
+public class Inicio {
+    
+public abstract class Datos {
+    protected String archivo;
+    
+    public Datos(String archivo) {
+        this.archivo = archivo;
+    }
+
+    abstract public boolean existeArchivo();
+
+    public String getArchivo() {
+        return archivo;
+    }
+    
+  
